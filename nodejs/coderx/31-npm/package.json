@@ -1,0 +1,22 @@
+{
+  "name": "cachdungnpm",
+  "version": "1.0.0",
+  "description": "hoc npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm install"
+  },
+  "keywords": [
+    "npm",
+    "install"
+  ],
+  "author": "ngocanh",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

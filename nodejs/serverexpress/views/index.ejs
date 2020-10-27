@@ -1,0 +1,38 @@
+<% m = 666; %>
+<% n = "<font color=green>GREEN</font>"; %>
+
+<% tuoi = 14; %>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>express ánh lê</h1>
+	<h2>
+		<%= m %>
+		<br>
+		<%= n %>
+		dau = bao mat hon
+		<br>
+		<%- n %>
+
+	</h2>
+		<% 
+			if(tuoi>=15) {
+		%>
+	<h3>ban du tuoi roi</h3>
+		<% } else { %>
+	<h3>ban chua du  tuoi roi</h3>
+		<% } %>
+
+		<% 	for(let i = 1; i<5; i++){ %>
+			<h3>ham for EJS <%= i  %>	</h3>
+		<% } %>
+</body>
+</html>
+
